@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +27,71 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+/* stuff I added */
+
+main {
+  /* background-color: #FFBC4F; */
+  background: white;
+}
+
+h1 {
+  color: black;
+  font-family: 'Roboto' sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 600;
+}
+
+h2 {
+  color: black;
+  font-family: 'Roboto' sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+li {
+  font-family: 'Inter' sans-serif;
+  color: #676464;
+  font-weight: 200;
+  
+  list-style: none;
+  padding: 10px 30px;
+  background-image: url("../public/check.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 24px;
+  size: 16px;
+}
+
+li span {
+  position: relative;
+  left: 6px;
+}
+
+.image-container { 
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.info-container {
+  justify-content: start;
+  flex: 1;
+  min-height: 80vh;
+  align-items: center;
+  padding: 30px;
+  padding-right: 100px;
+  padding-left: 40px;
+  
+  background: white;
+}
+
+.logo-container {
+  margin-left: -15px;
+  margin-bottom: 50px;
 }
