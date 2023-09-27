@@ -3,6 +3,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-row items-center justify-between">
+      <header></header>
       <div className="info-container">
         <div className="justify-between">
           <div className="logo-container">
@@ -11,7 +12,7 @@ export default function Home() {
             </a>
           </div>
           <h1 className="mb-7">Upgrade your rewards system today.</h1>
-          <h2 className="mb-5">Looking to upgrade your rewards system? PunchIt is a one stop location to track customer
+          <h2 className="mb-5">Looking to upgrade your rewards system? PunchIt is a one stop shop for you to track customer
             behavior while improving loyalty.
           </h2>
           <div>
