@@ -12,7 +12,7 @@ export default function Home() {
           </div>
           <h1 className="mb-7">Upgrade your rewards system today.</h1>
           <h2 className="mb-5">Looking to upgrade your rewards system? PunchIt is a one stop location to track customer
-            behavior while imporving loyalty.
+            behavior while improving loyalty.
           </h2>
           <div>
             <ul>
@@ -26,6 +26,7 @@ export default function Home() {
       <div className="image-container">
         <Image alt={"graphic"} src='/graphic-2.png' height={600} width={600}/>
       </div>
+      <footer>Copyright of Sam, Brendan, Olive, and Macy</footer>
     </main>
   )
 }
